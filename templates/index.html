@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Millennium Collection</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="/static/images/banner.jpg" alt="" /></span>
+							<h1 id="title">Millennium<br>Collection</h1>
+							<p>Jewelry|Watches</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="#glimpse" id="glimpse-link"><span class="icon solid fa-th">Glimpse of Products</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Us</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="work.html" id="contact-link"><span class="icon solid fa-briefcase">Work With Us</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href = "#contact" id="contact-link" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"></h2>
+								<p> <!-- Enter headline here -->
+								<!-- Enter tagline here --></p>
+
+							</header>
+
+							<footer><br /><br /><br />
+					<!--			<a href="#portfolio" class="button scrolly">Take a Glimpse</a> -->
+								<br /><br /><br /><br />
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="glimpse" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Glimpse of Products</h2>
+							</header>
+
+							<p>Peek into our Jewelry and Watches collection for every occassion displaying astonishing elegance.<br>
+							Style with a purpose. Style for today. <br> Visit now!</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="/static/images/bracelet.jpg" alt="" /></a>
+										<header>
+											<h3>Bracelets</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a class="image fit"><img src="/static/images/rope.jpg" alt="" /></a>
+										<header>
+											<h3>Rope Chain</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="/static/images/tennis.jpg" alt="" /></a>
+										<header>
+											<h3>Tennis Necklace</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a class="image fit"><img src="/static/images/earrings.jpg" alt="" /></a>
+										<header>
+											<h3>Earrings</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="/static/images/watch-ring.jpg" alt="" /></a>
+										<header>
+											<h3>Watches & Rings</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a class="image fit"><img src="/static/images/cubanlink.jpg" alt="" /></a>
+										<header>
+											<h3>Iced Cuban Link</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Us -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Us</h2>
+							</header>
+
+							<a class="image featured"><img src="/static/images/kioskpic.jpg" alt="" /></a>
+
+							<p>Located inside Twelve Oaks Mall in Novi Michigan, <br> Millennium Collection is your one stop kiosk serving latest trends of Jewelry & Watches
+								for Men, Women and Children.<br>Address: 27500 Novi Rd, Novi, MI 48377</p>
+
+
+							</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p> Questions or concerns? Reach out to us. </p>
+
+							<form method="post" action="/submit_message">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy;All rights reserved.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/static/assets/js/jquery.min.js"></script>
+			<script src="/static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/static/assets/js/browser.min.js"></script>
+			<script src="/static/assets/js/breakpoints.min.js"></script>
+			<script src="/static/assets/js/util.js"></script>
+			<script src="/static/assets/js/main.js"></script>
+
+	</body>
+</html>
