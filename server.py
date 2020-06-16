@@ -11,6 +11,10 @@ def my_home():
 def html_page(page_name):
     return render_template(page_name)
 
+@app.route('/work')
+def work():
+    return render_template('work.html')
+
 # def write_to_file(data):
 #     # with open('database.csv', mode='a') as database:
 #     with open('database.txt', mode='a') as database:
